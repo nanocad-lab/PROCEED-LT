@@ -18,3 +18,15 @@ Run the following command in MATLAB:
 
     po1vt_lo_k10_0p1_t3_ws1_01_1vd_bndry_aw2
 
+
+# Evaluation Mode
+- Room Temperature (85℃): `temp_set = 'hi'`
+- Low Temperature (-196℃): `temp_set = 'lo'`
+- Aging: `aging = 1`
+- IR drop: `flag_IR_drop = 1`
+- Interconnect model selection: `accurate_wire = 0/1/2`
+- Multi-Vdd: `vdSelect = '2vd'`
+- Multi-Vth: `vtSelect = '2vt'`
+- Activity factor: `acti = 0.1`
+- Vth variation: `vt_var_mode = 1`
+
