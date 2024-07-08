@@ -6,7 +6,7 @@ fprintf('-----SEPVT PROGRAM----- CALIB\n');
 %%%%% TUNING SWITCHES
 % activity factor
 acti        = 0.1;
-% temperature setting: lo (-196.15) or md (+25C) or hi (+80)
+% temperature setting: lo (-196.15) or md (+25C) or hi (+85)
 tempe_set   = 'lo';
 % iterations
 kval        = 30;
