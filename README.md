@@ -12,13 +12,6 @@ Replace `YOUR_LIBRARY_NAME` with your library path in the files below:
     xk_initial_delay_estimation_ng_fast.m
 
 
-# Execution
-
-Run the following command in MATLAB:
-
-    po1vt_lo_k10_0p1_t3_ws1_01_1vd_bndry_aw2
-
-
 # Evaluation Mode
 - Room Temperature (85℃): `temp_set = 'hi'`
 - Low Temperature (-196℃): `temp_set = 'lo'`
@@ -29,4 +22,11 @@ Run the following command in MATLAB:
 - Multi-Vth: `vtSelect = '2vt'`
 - Activity factor: `acti = 0.1`
 - Vth variation: `vt_var_mode = 1`
+
+
+# Execution
+
+Run the following command in MATLAB:
+
+    po1vt_lo_k10_0p1_t3_ws1_01_1vd_bndry_aw2
 
