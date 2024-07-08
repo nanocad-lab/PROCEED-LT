@@ -1,0 +1,185 @@
+#num needed restored net=0
+#need_extraction net=0 (total=40239)
+#CELL_VIEW CORTEXM3,init
+#Number of pins = 1510
+#Number of insts = 61613
+#Number of special nets = 2
+#Number of nets = 40239
+#Number of DRC violations = 3274
+#Begin net statistic report:
+#    number of nets with preferred extra spacing = 836
+#    number of nets with default rule = 40239
+#    number of nets with pin count 0 = 8086
+#    number of nets with pin count 1 = 257
+#    number of nets with pin count 2 = 16760
+#    number of nets with pin count 3 = 6265
+#    number of nets with pin count 4 = 3483
+#    number of nets with pin count 5 = 1472
+#    number of nets with pin count 6 = 777
+#    number of nets with pin count 7 = 627
+#    number of nets with pin count 8 = 321
+#    number of nets with pin count 9 = 377
+#    number of nets with pin count 10 = 310
+#    number of nets with pin count 11 = 174
+#    number of nets with pin count 12 = 112
+#    number of nets with pin count 13 = 143
+#    number of nets with pin count 14 = 136
+#    number of nets with pin count 15 = 170
+#    number of nets with pin count 16 = 68
+#    number of nets with pin count 17 = 113
+#    number of nets with pin count 18 = 65
+#    number of nets with pin count 19 = 37
+#    number of nets with pin count [20 to 29) = 194
+#    number of nets with pin count [30 to 39) = 211
+#    number of nets with pin count [40 to 49) = 24
+#    number of nets with pin count [50 to 59) = 10
+#    number of nets with pin count [60 to 69) = 7
+#    number of nets with pin count [70 to 79) = 5
+#    number of nets with pin count [80 to 89) = 3
+#    number of nets with pin count [90 to 99) = 20
+#    number of nets with pin count [100 to 109) = 11
+#    number of nets with pin count [540 to 549) = 1
+#    average number of pin counts = 3.09
+#    maximum number of pin counts = 548
+#	large net VSS has 548 pin
+#	large net u_cm3_dpu/u_cm3_dpu_regbank/u_cm3_dpu_regfile/CTS_1 has 101 pin
+#	large net CTS_13 has 101 pin
+#	large net CTS_2 has 101 pin
+#	large net CTS_6 has 101 pin
+#	large net u_cm3_dpu/u_cm3_dpu_regbank/u_cm3_dpu_regfile/CTS_3 has 101 pin
+#	large net CTS_26 has 101 pin
+#	large net u_cm3_dpu/u_cm3_dpu_alu_u_cm3_dpu_alu_dp/CTS_1 has 100 pin
+#	large net CTS_4 has 100 pin
+#	large net CTS_14 has 100 pin
+#	large net CTS_7 has 100 pin
+#	large net u_cm3_dpu/u_cm3_dpu_regbank/u_cm3_dpu_regfile/CTS_4 has 100 pin
+#End net statistic report
+#
+#Begin instance pin statistic report:
+#    number of pins on layer M1 = 122728
+#    number of pins on layer M2 = 6334
+#    number of pins with multiple layers = 6334
+#End instance pin statistic report
+#
+#Total number of nets with non-default rule or having extra spacing = 836
+#Total wire length = 262776 um.
+#Total half perimeter of net bounding box = 220855 um.
+#Total wire length on LAYER M1 = 522 um.
+#Total wire length on LAYER M2 = 46184 um.
+#Total wire length on LAYER M3 = 61255 um.
+#Total wire length on LAYER C4 = 64544 um.
+#Total wire length on LAYER C5 = 68716 um.
+#Total wire length on LAYER K1 = 21554 um.
+#Total wire length on LAYER K2 = 0 um.
+#Total wire length on LAYER K3 = 0 um.
+#Total wire length on LAYER K4 = 0 um.
+#Total wire length on LAYER H1 = 0 um.
+#Total wire length on LAYER H2 = 0 um.
+#Total wire length on LAYER G1 = 0 um.
+#Total wire length on LAYER G2 = 0 um.
+#Total wire length on LAYER LB = 0 um.
+#Total number of vias = 372056
+#Total number of multi-cut vias = 81578 ( 21.9%)
+#Total number of single cut vias = 290478 ( 78.1%)
+#Up-Via Summary (total 372056):
+#                   single-cut          multi-cut      Total
+#-----------------------------------------------------------
+# M1            110219 ( 91.2%)     10610 (  8.8%)     120829
+# M2             91760 ( 69.3%)     40727 ( 30.7%)     132487
+# M3             51982 ( 70.5%)     21735 ( 29.5%)      73717
+# C4             35010 ( 85.3%)      6033 ( 14.7%)      41043
+# C5              1507 ( 37.9%)      2473 ( 62.1%)       3980
+#-----------------------------------------------------------
+#               290478 ( 78.1%)     81578 ( 21.9%)     372056 
+#
+#
+#Vias used for rule 'DEFAULT'
+# V1_0_15_0_25_VH_Vx       104505	(single)
+# V1_0_25_25_5_VxBAR_N_OH_H       3045
+# V1_0_25_25_5_VxBAR_S_OH_H       2495
+# V1_0_15_0_50_VH_Vx         2179	(single)
+# V1_0_15_0_25_HH_Vx         1694	(single)
+# V1_0_25_0_25_VxBAR_N       1674
+# V1_0_25_0_25_VxBAR_S       1606
+# V1_0_15_0_25_VV_Vx         1470	(single)
+# V1_0_25_0_25_VxBAR_E        918
+# V1_0_25_0_25_VxBAR_W        866
+# V1_0_15_0_30_VH_Vx          248	(single)
+# V1_0_15_0_35_VH_Vx          119	(single)
+# V1_0_25_0_20_VxBAR_E          4
+# V1_8_15_0_25_VH_Vx            3	(single)
+# V1_0_25_0_20_VxBAR_W          2
+# V1_25_25_0_25_XV_Vx           1	(single)
+# V2_0_25_0_25_HV_Vx        91713	(single)
+# V2_0_25_25_5_VxBAR_E      13565
+# V2_0_25_25_5_VxBAR_W      11784
+# V2_25_0_5_25_VxBAR_W_OH_E_MAR       6917
+# V2_25_0_5_25_VxBAR_E_OH_W_MAR       6430
+# V2_0_41_5_25_VxBAR_W_OH_W_MAR       1420
+# V2_0_45_25_5_VxBAR_W_OH_W        486
+# V2_0_25_25_5_VxBAR_H_OH_E_MAR         47
+# V2_0_25_25_5_VxBAR_H_OH_W_MAR         28
+# V2_0_60_0_25_HV_Vx_OH_E_MAR         24	(single)
+# V2_0_25_0_20_VxBAR_N         22
+# V2_0_60_0_25_HV_Vx_OH_W_MAR         15	(single)
+# V2_25_5_0_25_VxBAR_N          8
+# V2_0_25_0_20_VxBAR_S          6
+# V2_0_25_0_25_HV_Vx_S1          4	(single)
+# V2_25_5_0_25_VxBAR_S          4
+# V2_0_25_0_25_VxBAR_S          4
+# V2_0_25_0_25_VxBAR_N          4
+# V2_0_25_0_25_HH_Vx            2	(single)
+# V2_0_25_0_25_HV_Vx_S2          2	(single)
+# V2_25_0_0_25_N_VxBAR_2          1
+# V2_0_25_0_25_VxBAR_N_N          1
+# J3_0_25_4_40_VH_Jy        51856	(single)
+# J3_25_5_4_25_JyBAR_E      12471
+# J3_25_5_4_25_JyBAR_W       7983
+# J3_25_5_4_27_JyBAR_E_OH        575
+# J3_25_5_4_27_JyBAR_W_OH        471
+# J3_0_25_4_25_JyBAR_E        120
+# J3_0_25_4_25_JyBAR_W         72
+# J3_0_35_4_50_VH_Jy           69	(single)
+# J3_0_50_4_50_VH_Jy           41	(single)
+# J3_0_25_4_25_JyBAR_E_MAR3         17
+# J3_0_25_24_25_JyBAR_S_OH_S_MAR         10
+# J3_0_25_24_25_JyBAR_S_OH_N_MAR          7
+# J3_0_25_4_50_VH_Jy            6	(single)
+# J3_0_25_4_40_VH_Jy_S2          6	(single)
+# J3_0_25_4_40_VH_Jy_S1          4	(single)
+# J3_0_25_17_17_X2S_VX_Jy          2
+# J3_0_25_24_25_JyBAR_N_OH_N_MAR          2
+# J3_0_25_24_3_JyBAR_S_OH_S          2
+# J3_0_25_17_17_X2N_VX_Jy          1
+# J3_0_25_4_25_JyBAR_E_MAR4          1
+# J3_0_25_24_3_JyBAR_N_OH_N          1
+# A4_0_50_0_50_HV_Ax        34977	(single)
+# A4_0_20_60_0_AxBAR_H_OH_W_MAR       3770
+# A4_0_20_60_0_AxBAR_H_OH_E_MAR       2252
+# A4_0_50_20_20_HX_Ax          33	(single)
+# A4_0_20_61_0_AxBAR_H_OH_W_MAR          5
+# A4_20_0_20_20_AxBAR_E_OH          4
+# A4_0_20_61_0_AxBAR_H_OH_E_MAR          2
+# CK_23_28_0_26_VH_CK        1498	(single)
+# CK_23_28_0_26_X2N_VH_CK       1455
+# CK_23_28_0_26_X2S_VH_CK        908
+# CK_23_28_0_26_X2E_VH_CK         67
+# CK_23_28_0_26_X2W_VH_CK         43
+# CK_48_48_0_26_XH_CK           9	(single)
+#
+#Total number of DRC violations = 3274
+#Total number of violations on LAYER M1 = 3215
+#Total number of violations on LAYER M2 = 39
+#Total number of violations on LAYER M3 = 20
+#Total number of violations on LAYER C4 = 0
+#Total number of violations on LAYER C5 = 0
+#Total number of violations on LAYER K1 = 0
+#Total number of violations on LAYER K2 = 0
+#Total number of violations on LAYER K3 = 0
+#Total number of violations on LAYER K4 = 0
+#Total number of violations on LAYER H1 = 0
+#Total number of violations on LAYER H2 = 0
+#Total number of violations on LAYER G1 = 0
+#Total number of violations on LAYER G2 = 0
+#Total number of violations on LAYER LB = 0
+
