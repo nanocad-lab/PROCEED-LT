@@ -1,5 +1,4 @@
 # Preparation
-
 Replace `YOUR_LIBRARY_NAME` with your library path in the files below:
 
     detail_delay_and_power_simulation.m
@@ -29,4 +28,7 @@ Replace `YOUR_LIBRARY_NAME` with your library path in the files below:
 Run the following command in MATLAB:
 
     po1vt_lo_k10_0p1_t3_ws1_01_1vd_bndry_aw2
+
+# Paper Link
+This project is associated with the paper published in https://ieeexplore.ieee.org/document/10787912.
 
