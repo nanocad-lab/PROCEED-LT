@@ -30,5 +30,5 @@ Run the following command in MATLAB:
     po1vt_lo_k10_0p1_t3_ws1_01_1vd_bndry_aw2
 
 # Paper Link
-This project is associated with the paper published in https://ieeexplore.ieee.org/document/10787912.
+This project is associated with the paper: _A Comparative Analysis of Low Temperature and Room Temperature Circuit Operation_. The paper is published at https://ieeexplore.ieee.org/document/10787912. This paper utilizes PROCEED-LT to evaluate and optimize VLSI benchmarks to show the benefits of low-temperature circuit operations compared to room temperature.
 
